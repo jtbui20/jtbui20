@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Arimo&family=Karla:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons+Outlined");
+
+html {
+  font-family: "Karla";
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.material-icons-outlined {
+  font-family: "Material Icons Outlined" !important;
+}
+
+.emp {
+  font-family: "Arimo";
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.zero-m {
+  margin: 0;
+}
+
+.hard {
+  font-size: 2rem;
+}
+
+.grid {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.grid .grid-item {
+  width: 200px;
+  border: 0.3px solid #9a9a9a;
+  box-shadow: 0 0 10px 1px #999;
+  border-radius: 8px;
+  margin: 0.5em;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+#main {
+  max-width: 940px;
+  position: relative;
+  top: 10px;
+  margin: 0 max(10%, 50% - 470px);
+  border: 0.3px solid #9a9a9a;
+  box-shadow: 0 0 10px 1px #999;
+}
+
+#about #name {
+  float: left;
+}
+
+#about ul {
+  display: inline;
+  list-style-type: none;
+  padding-inline-start: 0;
+  width: auto;
+  text-align: center;
+}
+
+#about ul li {
+  display: inline;
+  list-style-type: none;
+  width: auto;
+}
+
+#about #contacts ul li#website::before {
+  content: "link";
+  font-family: "Material Icons Outlined" !important;
+}
+
+#about #contacts ul li#email::before {
+  content: "email";
+  font-family: "Material Icons Outlined" !important;
+}
+
+#about #contacts ul li#phone::before {
+  content: "phone";
+  font-family: "Material Icons Outlined" !important;
+}
+
+#about #contacts ul li#github::before {
+  content: "folder";
+  font-family: "Material Icons Outlined" !important;
+}
+
+#about #basic-info {
+  text-align: right;
+}
+
+#about #more {
+  display: block;
+  margin-top:2em;
+  clear: both;
+  text-align: center;
+}
+
+#content div {
+  padding: 0.5em;
+}
+
+#content .card {
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 0.5em 0;
+  padding: 5px;
+}
+
+#content {
+  position: relative;
+  height: 100%;
+  width: 90%;
+  right: 0;
+  margin: auto;
+}
