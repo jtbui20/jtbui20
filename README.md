@@ -1,7 +1,10 @@
+I'm not gonna do anything special here, just have a look around.
+
 ### Huh?
-Which _*clown*_ decided dipping the wedge into
-7 different sauces was a good idea?  
-> No one else is in the room.  
+Hi I do game dev, web app, engineering. I also do production and management work.
 
+### Lang?
+Game dev I do C# and C++ under Unity & Unreal.
+For web I do React TS.
+Engineering I do Python & C.
 
-🏃‍♂️💨
